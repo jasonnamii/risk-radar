@@ -231,7 +231,7 @@ Red·Orange 리스크에 한해 6가지 편향 순회.
 |-----------|-----------|
 | management-skill M6 | Red 리스크 발생 시 → 위기관리 프로토콜 핸드오프 |
 | biz-skill E3 | 전략적 리스크 → 위기축 패턴 매칭 |
-| startup-investment | 투자 리스크 → 밸류에이션·텀시트 리스크 |
+| investment-skill | 투자 리스크 → 밸류에이션·텀시트 리스크 |
 | planning-skill | 기획 단계에서 P2 리서치 시 리스크 스캔 연동 |
 | trigger-dictionary (프리모르템) | 프리모르템=리스크 식별 도구. 본 스킬은 식별+분류+구조화+추적까지 |
 
@@ -239,11 +239,11 @@ Red·Orange 리스크에 한해 6가지 편향 순회.
 
 
 ## §INV NO_WORK_LABEL
-산출물·대화 작업 라벨 ZERO. → `paper-engine/references/no-work-label.md`
+산출물·대화 작업 라벨 ZERO. → `shaper-skill/references/no-work-label.md`
 
 
-## 🚨 MUST cascade → paper-engine
-모든 산출물 paper-engine MUST 경유. → `paper-engine/references/_common/cascade-must.md`
+## 🚨 MUST cascade → shaper-skill
+모든 산출물 shaper-skill MUST 경유. → `shaper-skill/references/_common/cascade-must.md`
 
 
 ## Gotchas
