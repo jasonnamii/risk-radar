@@ -15,7 +15,28 @@ description: |
 management-skill M6(위기관리)가 "터진 후 어떻게 대응하나"라면, 이 스킬은 **"터지기 전에 무엇이 터질 수 있는가"를 구조적으로 식별하고 추적하는 것**.
 리스크 관리의 80%는 식별이다. 보이지 않는 리스크는 관리할 수 없다.
 
+
+## Skill Boundaries
+
+- **하는 것** — 능동적 리스크 예측·모니터링 엔진.
+- **안 하는 것** — 사후 위기대응(→management-skill M6), 사업전략(→biz-skill), 재무모델(→financial-model), 프리모르템 단독(→trigger-dictionary).
+
 ---
+
+## When to Use
+
+- 사용자가 "리스크 분석해줘", "위험 예측해줘", "스캔해줘", "scan risks", "analyze risks." 같은 표현으로 발동
+- 프로젝트 착수 전에, 투자 결정 전에, 분기 리뷰 때.
+- **안 쓸 때** — 사후 위기대응(→management-skill M6), 사업전략(→biz-skill), 재무모델(→financial-model), 프리모르템 단독(→trigger-dictionary).
+
+
+## Prerequisites
+
+| # | 체크 | 미충족 시 |
+|---|------|-----------|
+| 1 | 대상·입력 명확 (스킬 발동 의도 확인) | 1줄 확인 후 진입 |
+| 2 | references/ 폴더 접근 가능 | inline fallback |
+
 
 ## ⛔ 절대 규칙
 
@@ -246,7 +267,36 @@ Red·Orange 리스크에 한해 6가지 편향 순회.
 모든 산출물 shaper-skill MUST 경유. → `shaper-skill/references/_common/cascade-must.md`
 
 
-## Gotchas
+## Output Path
+
+| 산출물 | 경로 |
+|---|---|
+| 주 산출물 | `mnt/outputs/risk-radar_{topic}_{YYYY-MM-DD}.md` |
+| 형식 | 리스크매트릭스로, 리스크보고서로, .md로. |
+| 리서치 결과 (해당 시) | `{VAULT}/_skills research/risk-radar/{YYYY-MM-DD}_{topic}.md` |
+
+## Reference Index
+
+| 파일 | 내용 | 언제 |
+|---|---|---|
+| `references/cognitive-risk-bias.md` | cognitive risk bias | 해당 단계 진입 시 |
+| `references/organizational-risk.md` | organizational risk | 해당 단계 진입 시 |
+| `references/quantitative-risk.md` | quantitative risk | 해당 단계 진입 시 |
+| `references/risk-identification.md` | risk identification | 해당 단계 진입 시 |
+| `references/risk-response.md` | risk response | 해당 단계 진입 시 |
+| `references/risk-theory.md` | risk theory | 해당 단계 진입 시 |
+
+
+## Next Phase
+
+본 스킬 작업 후 자연스럽게 이어지는 흐름:
+
+- 후속 작업 → `management-skill`
+- 후속 작업 → `biz-skill`
+- 후속 작업 → `financial-model`
+- 후속 작업 → `trigger-dictionary`
+
+## Failure Modes (Gotchas)
 
 | 함정 | 대응 |
 |------|------|
@@ -257,3 +307,11 @@ Red·Orange 리스크에 한해 6가지 편향 순회.
 | "모든 게 리스크" 과잉 식별 | 6축 ● 축만. 총 15개 이내 |
 | 대응안이 "주시한다" 수준 (Red) | Red에 "주시"는 부적절. 구체 행동 필수 |
 | 팻테일 리스크 무시 | §3.1 팻테일 차원 명시적 평가 |
+
+
+## ❌ WRONG vs ✅ CORRECT
+
+```
+❌ WRONG: 트리거 단어만 보고 발동 — 본질·범위 확인 ✗ → 오발동·범위 이탈
+✅ CORRECT: Skill Boundaries·When to Use 확인 후 발동 → 본질 작업만 수행
+```
