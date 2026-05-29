@@ -1,13 +1,7 @@
 ---
 name: risk-radar
 description: |
-  능동적 리스크 예측·모니터링 엔진. 프로젝트·사업·투자·조직 리스크를 사전 식별하고 확률×임팩트 매트릭스로 구조화. 정기 스캔 지원.
-  P1: 리스크레이더, risk radar, 리스크예측, 리스크분석, 리스크매트릭스, 위험예측, 위험분석, 리스크스캔, 리스크모니터링, 리스크맵.
-  P2: 리스크 분석해줘, 위험 예측해줘, 스캔해줘, scan risks, analyze risks.
-  P3: risk assessment, risk matrix, probability-impact analysis, risk mitigation, risk monitoring.
-  P4: 프로젝트 착수 전에, 투자 결정 전에, 분기 리뷰 때.
-  P5: 리스크매트릭스로, 리스크보고서로, .md로.
-  NOT: 사후 위기대응(→management-skill M6), 사업전략(→biz-skill), 재무모델(→financial-model), 프리모르템 단독(→trigger-dictionary).
+  능동적 리스크 예측·모니터링 엔진. 프로젝트·사업·투자·조직 리스크를 사전 식별하고 확률×임팩트 매트릭스로 구조화. 정기 스캔 지원. 트리거: 리스크레이더, risk radar, 리스크예측, 리스크분석, 리스크매트릭스, 위험예측, 위험분석, 리스크스캔, 리스크모니터링, 리스크맵, 리스크 분석해줘, 위험 예측해줘, 스캔해줘, scan risks, analyze risks. NOT: 사후 위기대응(→management-skill M6), 사업전략(→biz-skill), 재무모델(→financial-model), 프리모르템 단독(→trigger-dictionary).
 ---
 
 # Risk Radar — 능동적 리스크 예측 엔진
